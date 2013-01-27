@@ -1,0 +1,12 @@
+minicom -w
+>m
+>6
+>2
+>1
+<Ready
+>W
+>P
+>L
+>c
+>(1) # ATR macro
+>{0x30 0 0xff}\ r:200 # reads 400 bytes 
